@@ -14,32 +14,37 @@ public class Allotwithclass {
         }
     }
 
-    public static void main(String[] args) {
+   public static void main(String[] args) {
 
-        Student[] studentArray = {
-            new Student("Ram", "Male"),
-            new Student("Rakesh", "Male"),
-            new Student("Rahul", "Male"),
-            new Student("Om", "Male"),
-            new Student("Ritik", "Male"),
-            new Student("Amit", "Male"),
-            new Student("Jay", "Male"),
-            new Student("Aditya", "Male"),
-            new Student("Anirudh", "Male"),
-            new Student("Vikas", "Male"),
+    
+    Student s1 = new Student("Ram", "Male");
+    Student s2 = new Student("Rakesh", "Male");
+    Student s3 = new Student("Rahul", "Male");
+    Student s4 = new Student("Om", "Male");
+    Student s5 = new Student("Ritik", "Male");
+    Student s6 = new Student("Amit", "Male");
+    Student s7 = new Student("Jay", "Male");
+    Student s8 = new Student("Aditya", "Male");
+    Student s9 = new Student("Anirudh", "Male");
+    Student s10 = new Student("Vikas", "Male");
 
-            new Student("Jyoti", "Female"),
-            new Student("Rubi", "Female"),
-            new Student("Nikita", "Female"),
-            new Student("Bimla", "Female"),
-            new Student("Sheema", "Female"),
-            new Student("Saraswati", "Female"),
-            new Student("Akansha", "Female"),
-            new Student("Divya", "Female"),
-            new Student("Anuradha", "Female"),
-            new Student("Anushiya", "Female"),
-            new Student("Ridhima", "Female")
-        };
+    Student s11 = new Student("Jyoti", "Female");
+    Student s12 = new Student("Rubi", "Female");
+    Student s13 = new Student("Nikita", "Female");
+    Student s14 = new Student("Bimla", "Female");
+    Student s15 = new Student("Sheema", "Female");
+    Student s16 = new Student("Saraswati", "Female");
+    Student s17 = new Student("Akansha", "Female");
+    Student s18 = new Student("Divya", "Female");
+    Student s19 = new Student("Anuradha", "Female");
+    Student s20 = new Student("Anushiya", "Female");
+    Student s21 = new Student("Ridhima", "Female");
+
+    
+    Student[] studentArray = {
+        s1, s2, s3, s4, s5, s6, s7, s8, s9, s10,
+        s11, s12, s13, s14, s15, s16, s17, s18, s19, s20, s21
+    };
 
         ArrayList<Student> male = new ArrayList<>();
         ArrayList<Student> female = new ArrayList<>();
